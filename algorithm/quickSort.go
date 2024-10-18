@@ -10,7 +10,7 @@ func QuickSort(nums []int, left, right int) {
 		mid := left+(right-left)/2
 		p := Partition(nums, left, right, mid)
 		QuickSort(nums, left, p-1)
-		QuickSort(nums, right, p+1)	
+		QuickSort(nums, p+1, right)	
 	}
 }
 

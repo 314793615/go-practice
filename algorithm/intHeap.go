@@ -11,7 +11,7 @@ type IntHeap []int
 
 
 func (h *IntHeap) Less(i, j int) bool{
-	return (*h)[i] < (*h)[j]
+	return (*h)[i] > (*h)[j]
 }
 
 func (h *IntHeap) Len() int{
