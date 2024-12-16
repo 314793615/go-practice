@@ -1,0 +1,3 @@
+SERVICE_NAME="mydaemon"
+SERVICE_PATH="usr/local/bin/$SERVICE_NAME"
+CONFIG_PATH="/etc/&SERVICE_NAME"
